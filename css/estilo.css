@@ -1,5 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif;
+    /*font-family: 'Ms Madi', cursive;*/
+    background-image: url("img/");
   }
   
   .navbar {
@@ -101,4 +103,15 @@ body {
       display: block;
       margin-bottom: 20px;
     }
+  }
+  .dibujo{
+    filter: invert();
+  }
+  .contenido{
+    text-align: left;
+  }
+  .codigo{
+    border: 1px solid mediumseagreen;
+    background-color: white;
+    padding: 1%;
   }

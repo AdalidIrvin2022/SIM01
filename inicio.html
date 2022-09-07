@@ -13,6 +13,9 @@
     <script src="js/estructuraFor.js" defer></script>
     <script src="js/estructuraIF.js" defer></script>
     <script src="js/estructuraWhile.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,900&display=swap');
     </style>
@@ -22,20 +25,23 @@
     <h1>Avance de Java Script</h1>
     <div class="navbar">
         <a href="#home">INICIO</a>
-        <a href="#news">HTML</a>
         <div class="dropdown">
-          <button class="dropbtn">HTML 
+          <button class="dropbtn">
+            <img src="img/raven.png" width="20px" alt="" class="dibujo">
+            HTML 
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
-            <a href="#">Cabeceras</a>
-            <a href="#">Div</a>
+            <a href="#cabecera">Cabeceras</a>
+            <a href="#div">Div</a>
             <a href="#">Secciones</a>
             <a href="#">Imágenes</a>
           </div>
         </div> 
         <div class="dropdown">
-            <button class="dropbtn">CSS
+            <button class="dropbtn">
+              <img src="img/raven.png" width="20px" alt="" class="dibujo">
+              CSS
                 <i class="dropdown-content"></i>
             </button>
             <div class="dropdown-content">
@@ -46,7 +52,9 @@
             </div>
         </div>
         <div class="dropdown">
-            <button class="dropbtn">JS
+            <button class="dropbtn">
+              <img src="img/raven.png" width="20px" alt="" class="dibujo">
+              JS
                 <i class="dropdown-content"></i>
             </button>
             <div class="dropdown-content">
@@ -82,10 +90,58 @@
 =======
       <div class="row">
         <div class="column">
-          <div class="card">HTML</div>
+          <div class="card">HTML
+            <div class="contenido">
+              <h3 id="cabecera">Cabeceras</h3>
+              <ul>
+                <li>H1</li>
+                <li>H2</li>
+                <li>H3</li>
+                <li>H4</li>
+                <li>H5</li>
+                <li>H6</li>
+              </ul>
+              <p class="contenido">
+                Las cabeceras, nos permiten generar textos de diferente tamaño, basándonos en la cabecera escogida. <br>
+                Desde H1, el tamaño más grande hasta H6, el más pequeño.
+              </p>
+            </div>
+            <div class="contenido">
+              <h3 id="div">DIV</h3>
+              <p class="contenido">
+                La etiqueta DIV, permite insertar una DIVISIÓN en nuestra página, esta división facilita la estructuración de nuestro contenido, ya que permite organizar los diferentes elementos mediante CLASES e ID's. <br>
+                El elemento DIV, puede contener a su vez tantos DIV, como sean necesarios.
+                Un elemento equivalente es la etiqueta SECTION, que para efectos prácticos realiza la misma tarea.
+              </p>
+            </div>
+          </div>
+
         </div>
         <div class="column">
-          <div class="card">CSS</div>
+          <div class="card">CSS
+            <div class="contenido">
+              <h3 id="sintaxis">SINTÁXIS</h3>
+              <p class="contenido">
+                La forma de escribir código CSS, es la siguiente: <br>
+                <ol>
+                  <li>Identificador</li>
+                  <li>Llave de apertura</li>
+                  <li>Atributos</li>
+                  <li>Parámetros</li>
+                  <li>Llave de cierre</li>
+                </ol>
+                Ejemplo <br><br>
+                <div class="codigo">
+                  <code>
+                    body { <br>
+                      color : "Green"; <br>
+                      background-color : "#123456"; <br>
+                    }
+                  </code>
+                </div>
+              </p>
+            </div>
+          </div>
         </div>
         <div class="column">
           <div class="card">JS</div>
