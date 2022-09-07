@@ -1,5 +1,6 @@
 body {
     font-family: 'Raleway', sans-serif;
+    
     /*font-family: 'Ms Madi', cursive;*/
     background-image: url("img/");
   }
@@ -114,4 +115,8 @@ body {
     border: 1px solid mediumseagreen;
     background-color: white;
     padding: 1%;
+    
+  }
+  code{
+    font-family: 'Combo', cursive;
   }
