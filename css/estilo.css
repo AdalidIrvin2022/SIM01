@@ -109,7 +109,7 @@ body {
     filter: invert();
   }
   .contenido{
-    text-align: left;
+    text-align: justify;
   }
   .codigo{
     border: 1px solid mediumseagreen;

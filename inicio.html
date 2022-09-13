@@ -11,6 +11,8 @@
     <script src="js/estructuraFor.js" defer></script>
     <script src="js/estructuraIF.js" defer></script>
     <script src="js/estructuraWhile.js" defer></script>
+    <script src="js/funciones.js" defer></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
@@ -149,7 +151,29 @@
           </div>
         </div>
         <div class="column">
-          <div class="card">JS</div>
+          <div class="card">JS <br>
+            <div>
+              <h3>Funciones</h3>
+              <p class="contenido">
+                Las funciones son fragmentos de código que nos permiten dividir las acciones en fragmentos auto-contenidos, de esta forma podemos crear fragmentos de código para solucionar partes de un problema y luego poder reutilizarlos. <br> <br>
+
+                <strong>Ejemplo:</strong> Dada una cadena de texto, que contiene un NOMBRE- APELLIDO P - APELLIDO M, crear una función que muestre el resultado en una lista formateada de la siguiente manera:
+                <ul class="contenido">
+                  <li>Nombre: nombre_introducido</li>
+                  <li>Apellido Paterno: apellidoP_introducido</li>
+                  <li>Apellido Materno: apellidoM_introducido</li>
+                </ul>            
+              </p>
+              <div>
+                <label for="">Nombre</label> <br>
+                <input type="text" id="cadena"> <br>
+                <label for="">Fecha de nacimiento</label> <br>
+                <input type="text" id="f_nacimiento"><br>
+                <button onclick="formato(document.getElementById('cadena').value,document.getElementById('f_nacimiento').value)">Formatear</button>
+                <p id="salida" class="contenido">Resultado de la función</p>
+              </div>
+            </div>
+          </div>          
         </div>
         <div class="column">
           <div class="card">..</div>
